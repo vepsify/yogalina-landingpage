@@ -240,8 +240,9 @@ d5_ITA_אישור לצורך ניכוי מס במקור
 ### Шаг 3.
 09.01.2025 отправили в Мигдаль [email](https://mail.google.com/mail/u/0/#sent/WhctKLbmsLNKXbFjZgpNZZJkSWmgZQMcRqnhnPbXgMtjZxpLGdQhskRnCKBhmpnqqGQNRdV) с необходимым комплектом документов (см. [шаг 2](#шаг-2))
 
-
-
+### Шаг 4.
+12.03.2025 получили от Мигдаль [email](https://mail.google.com/mail/u/0/#inbox/WhctKLbvXbpKVKQvjBRlszxXGfhjPPzznKBkGHxbzDTRTRBvltMXdHZjcnLgNRqSvrfbPjG)  
+Они просят предоставить справку от налоговой
 
 ## Klal - כלל חברה לביטוח בע"מ
 
@@ -268,5 +269,7 @@ d5_ITA_אישור לצורך ניכוי מס במקור
 
 ### Шаг 4. 
 Получили [ответ](https://mail.google.com/mail/u/0/#inbox/WhctKLbvVZQVggvfxflhjhdfrpGnfhsRHHThmmqJrrFHnpSngrvJXDRGVXCzBVtCBZCDNSq).  
-Налоговая прислала `אישור לצורך ניכוי מס במקור`
+Налоговая прислала `אישור לצורך ניכוי מס במקור` для меноры
 
+### Шаг 5. 
+Направили [запрос](https://secapp.taxes.gov.il/sr-crm-pniyot/main/historyIncident) для получения справки освобождения от налогов
