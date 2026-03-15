@@ -244,6 +244,13 @@ d5_ITA_אישור לצורך ניכוי מס במקור
 12.03.2025 получили от Мигдаль [email](https://mail.google.com/mail/u/0/#inbox/WhctKLbvXbpKVKQvjBRlszxXGfhjPPzznKBkGHxbzDTRTRBvltMXdHZjcnLgNRqSvrfbPjG)  
 Они просят предоставить справку от налоговой
 
+### Шаг 5.
+15.03.2025 получили от Налоговой [справку](https://secapp.taxes.gov.il/sr-crm-pniyot/main/historyIncident?fromSystem=1)  
+
+### Шаг 6.
+15.03.2025 отправили в Мигдаль [email](https://mail.google.com/mail/u/0/#sent/DmwnWtMnZLzWRwDwCrsXpJlqJLtBwbQMPlVhDHlzqqDrfvBxwRpwfktBpTnJnFkcWwKXzrcWgnrg) с недостающей справкой (см. шаг 4)
+
+
 ## Klal - כלל חברה לביטוח בע"מ
 
 ### Шаг 1. 
