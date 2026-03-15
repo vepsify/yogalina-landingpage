@@ -191,6 +191,11 @@ d6_Account_ownership_confirmation_Albitova_Galina
 d5_ITA_אישור לצורך ניכוי מס במקור
 ```
 
+### Шаг 6. 
+
+Получили [email](https://mail.google.com/mail/u/0/#inbox/VpCqJPtVqVqDrrPQgXsKMfGwrKwDxTVhdHbWsXJPRjRxsXJrhMqvXgJxWDsHfTNSFCNbKqg), что документы получены
+
+
 
 
 ## Migdal -  מגדל מקפת קרנות פנסיה וקופות גמל בע"מ
