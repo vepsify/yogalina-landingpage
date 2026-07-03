@@ -63,3 +63,27 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 ---
 
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
+
+---
+
+## Project: Yo! Galina landing page
+
+Vite + React + TypeScript static site (no router, no SSR). Current work lives on `feature/v2_new_design`; `main` and `backup/v1_static_page` still hold the old plain-HTML v1 site (`docs/`, `f1_landing/v1/`) for reference.
+
+### Commands
+- `npm install` — install dependencies (has `package-lock.json`)
+- `npm run dev` — Vite dev server
+- `npm run build` — `tsc -b && vite build`, outputs the static site to `dist/`
+- `npm run preview` — serve the production build locally
+
+No test runner or linter is configured in this project.
+
+### Architecture
+- Entry chain: `index.html` → `src/main.tsx` → `src/App.tsx`, which composes the page from `src/components/`.
+- Every visual section of the page is its own component (`Nav`, `Hero`, `Prices`, `Directions`, `Reviews`, `Locations`, `Footer`), each paired with its own `.css` file. `Schedule` is the one exception — it's rendered *inside* `Hero`, not as a top-level section in `App.tsx`: on desktop (`min-width: 1024px`) it overlays the hero image using CSS Grid stacking (both placed in the same grid cell), on mobile it falls back to a plain static block below the image. Read `Hero.css` and `Schedule.css` together before changing either.
+- Design tokens (colors, fonts, spacing scale, radii) live in `src/styles/tokens.css` as CSS custom properties — reference these in component CSS instead of hardcoding hex/px values. `src/styles/global.css` has resets/body defaults.
+- Content data (schedule slots, reviews, locations, external links) lives in `src/data/*.ts`, not inline in components. Prices are the one exception (hardcoded in `Prices.tsx` since each price card has distinct markup, not a uniform list).
+- Images are imported as ES modules from `src/assets/` (Vite fingerprints/bundles them). Favicons and `CNAME` sit in `public/` since those need fixed filenames/paths.
+- Single responsive breakpoint used everywhere: `min-width: 1024px` (mobile-first CSS, no other breakpoints).
+- Deploy: `.github/workflows/deploy.yml` builds and pushes `dist/` to GitHub Pages on push to `main` — requires repo Settings → Pages → Source set to "GitHub Actions". Custom domain is `yogalina.vepsify.com` via `public/CNAME`.
+- Design source of truth: a claude.ai Design project ("yo!Galina web", read via the `claude_design` MCP), Dark Forest theme, file `Yo Galina Redesign.dc.html` (frames A = mobile, C = desktop). That project is a regular project, not a design-system, so it's not currently a two-way `/design-sync` target.
