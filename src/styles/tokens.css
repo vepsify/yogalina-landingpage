@@ -1,0 +1,40 @@
+:root {
+  /* Colors — Dark Forest theme */
+  --color-bg: #0d1a0f;
+  --color-bg-rgb: 13, 26, 15;
+  --color-surface: #162318;
+  --color-surface-2: #1e3128;
+  --color-accent: #a3d75f;
+  --color-accent-rgb: 163, 215, 95;
+  --color-text-rgb: 238, 243, 236;
+  --color-border-rgb: 255, 255, 255;
+
+  /* Fonts */
+  --font-display: 'Unbounded', system-ui, sans-serif;
+  --font-body: 'Manrope', system-ui, sans-serif;
+
+  /* Layout gutters */
+  --gutter-sm: 22px;
+  --gutter-lg: 60px;
+
+  /* Spacing scale */
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 20px;
+  --space-xl: 24px;
+  --space-2xl: 32px;
+  --space-3xl: 40px;
+  --space-4xl: 52px;
+  --space-5xl: 60px;
+  --space-6xl: 80px;
+
+  /* Radii */
+  --radius-sm: 12px;
+  --radius-md: 14px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 28px;
+  --radius-full: 999px;
+}
