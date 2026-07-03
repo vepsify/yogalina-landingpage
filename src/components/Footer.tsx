@@ -5,7 +5,7 @@ import './Footer.css'
 function Footer() {
   return (
     <footer className="footer">
-      <div className="footer__copy">© 2025 Yo! Galina</div>
+      <div className="footer__copy">© {new Date().getFullYear()} Yo! Galina</div>
       <div className="footer__social">
         <a href={INSTAGRAM_URL} target="_blank" rel="noreferrer">
           <InstagramIcon />

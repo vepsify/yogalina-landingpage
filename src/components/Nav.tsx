@@ -10,9 +10,9 @@ function Nav() {
         <span className="nav__name">Yo! Galina</span>
       </div>
       <div className="nav__right">
-        <span className="nav__link">Расписание</span>
-        <span className="nav__link">Цены</span>
-        <span className="nav__link">Локации</span>
+        <a className="nav__link" href="#schedule">Расписание</a>
+        <a className="nav__link" href="#prices">Цены</a>
+        <a className="nav__link" href="#locations">Локации</a>
         <a className="nav__cta" href={TELEGRAM_URL} target="_blank" rel="noreferrer">
           <TelegramIcon size={13} />
           <span className="nav__cta-full">Написать в Telegram</span>

@@ -3,7 +3,7 @@ import './Schedule.css'
 
 function Schedule() {
   return (
-    <div className="schedule">
+    <div className="schedule" id="schedule">
       <div className="schedule__label">Расписание</div>
       <div className="schedule__list">
         {scheduleItems.map((item) => (

@@ -38,6 +38,7 @@
   font-weight: 600;
   color: rgba(var(--color-text-rgb), 0.38);
   cursor: pointer;
+  text-decoration: none;
 }
 
 .nav__cta {

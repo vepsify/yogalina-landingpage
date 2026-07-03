@@ -2,7 +2,7 @@ import './Prices.css'
 
 function Prices() {
   return (
-    <div className="prices">
+    <div className="prices" id="prices">
       <div className="prices__label">Цены</div>
       <div className="prices__grid">
         <div className="prices__card prices__card--free">

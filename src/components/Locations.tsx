@@ -7,7 +7,7 @@ const images = [ramatGanImage, yarkonParkImage]
 
 function Locations() {
   return (
-    <div className="locations">
+    <div className="locations" id="locations">
       <div className="locations__label">Локации</div>
       <div className="locations__grid">
         {locations.map((location, index) => (
